@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding-top: 56px;
+    overflow-x: hidden;
+}
+
+a {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 1.75em;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.75);
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-heading {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.hero-subheading {
+    font-size: 1.5em;
+}
+
+/* Section Styles */
+.section-heading {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.section-subheading {
+    font-size: 1.25em;
+    margin-bottom: 40px;
+    color: #6c757d;
+}
+
+/* About, Skills, Projects, and Contact Sections */
+.about, .skills, .projects, .contact {
+    padding: 60px 0;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Carousel */
+.carousel-inner {
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background: #343a40;
+    color: white;
+    text-align: center;
+}
